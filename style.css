@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #3b555d
+}
+
+/* Interface style */
+
+.interface {
+    text-align: center;
+}
+
+.head {
+    color: white;
+    font-size: 42px;
+}
+
+input, button {
+    background:none;
+    border: none;
+}
+
+input {
+    border: 0;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    font-size: 1.3rem;
+    color: white;
+    margin-top: 15px;
+    padding: 7px 0;
+    background: transparent;
+}
+
+input:focus {
+    border-bottom: 2px solid green;
+}
+
+button {
+    margin-left: 15px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10%;
+}
+
+/* display */
+
+.display {
+    width: 20vw;    
+    background-color: white;
+    display: block;
+    margin: 5vh auto;
+    border-radius: 10px;
+    padding-bottom : 50px;
+}
+
+.city-name {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+
+.city-name p {
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 1.5em;
+}
+
+.notification {
+    background-color: salmon;
+    display: none;
+}
+
+.notification p {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.weather-container{
+    width: 100%;
+    height: 260px;
+    background-color: #F4F9FF;
+}
+
+.weather-icon {
+    height: 120px;
+    width: 100%;
+}
+
+.weather-icon img {
+    display: block;
+    margin: 0 auto;
+}
+
+.temperature {
+    width: 100%;
+    height: 60px;
+}
+
+.temperature p {
+    color: black;
+    font-size: 4em;
+    cursor: pointer;
+    text-align: center;
+}
+
+.weather-description p {
+    padding: 8px;
+    margin: 0px;
+    color: black;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.date {
+    color: black;
+    text-align: center;
+    font-size: 1em;
+}
